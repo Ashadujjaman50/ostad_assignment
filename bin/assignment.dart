@@ -87,7 +87,7 @@ class Teacher extends Person {
 }
 
 class StudentManagementSystem {
-  static void main() {
+  static void done() {
     Student student = Student('John Doe', 20, '123 Main St', 'S001', 'A', [
       90,
       85,
@@ -106,5 +106,5 @@ class StudentManagementSystem {
 }
 
 void main() {
-  StudentManagementSystem.main();
+  StudentManagementSystem.done();
 }
